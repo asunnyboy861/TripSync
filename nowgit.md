@@ -9,7 +9,7 @@
 | **Repo URL** | https://github.com/asunnyboy861/TripSync |
 | **Visibility** | Public |
 | **Primary Language** | Swift |
-| **GitHub Pages** | ❌ **DISABLED** (iOS app distributed via App Store) |
+| **GitHub Pages** | DISABLED (iOS app distributed via App Store) |
 
 ## Policy Pages (Separate Repository)
 
@@ -19,16 +19,23 @@
 | **Git URL** | git@github.com:asunnyboy861/TripSync-pages.git |
 | **Repo URL** | https://github.com/asunnyboy861/TripSync-pages |
 | **Visibility** | Public |
-| **GitHub Pages** | ✅ **ENABLED** |
+| **GitHub Pages** | ENABLED |
 
 ### Deployed Pages
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/TripSync-pages/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/TripSync-pages/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/TripSync-pages/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/TripSync-pages/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/TripSync-pages/ | VERIFIED |
+| Support | https://asunnyboy861.github.io/TripSync-pages/support.html | VERIFIED |
+| Privacy Policy | https://asunnyboy861.github.io/TripSync-pages/privacy.html | VERIFIED |
+| Terms of Use | https://asunnyboy861.github.io/TripSync-pages/terms.html | VERIFIED |
+
+## Build & Test Status
+
+| Platform | Device | Status |
+|----------|--------|--------|
+| iOS Simulator | iPhone 16 Pro Max | BUILD OK, RUN OK |
+| iOS Simulator | iPad Pro 13-inch (M4) | BUILD OK, RUN OK |
 
 ## Repository Structure
 
@@ -44,9 +51,9 @@ TripSync/
 │   │   ├── Components/
 │   │   ├── Services/
 │   │   └── Utilities/
-│   └── ...
+│   └── Products.storekit
 ├── us.md                         # English Development Guide
-├── keytext.md                    # App Store Metadata
+├── keytext.md                    # App Store Metadata (ASCII only)
 ├── capabilities.md               # Capabilities Configuration
 ├── icon.md                       # App Icon Details
 ├── price.md                      # Pricing Configuration
