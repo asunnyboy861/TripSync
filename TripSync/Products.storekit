@@ -1,0 +1,48 @@
+{
+  "identifier" : "TripSync",
+  "products" : [
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "lifetime_001",
+      "localizations" : [
+        {
+          "description" : "One-time purchase, forever access",
+          "displayName" : "TripSync Pro Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.TripSync.pro.lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "subscriptionGroups" : [
+    {
+      "id" : "tripsync_pro_001",
+      "localizations" : [],
+      "name" : "TripSync Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "2.99",
+          "displayPriceLocale" : "en_US",
+          "introductoryOffer" : null,
+          "productID" : "com.zzoutuo.TripSync.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M"
+        },
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "19.99",
+          "displayPriceLocale" : "en_US",
+          "introductoryOffer" : null,
+          "productID" : "com.zzoutuo.TripSync.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
